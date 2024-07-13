@@ -80,6 +80,11 @@ p{
     border-radius: 10px;
 }
 
+.profile__list > a:active {
+    color: hsl(0, 0%, 8%);
+    background-color: hsl(75, 94%, 57%);
+  }
+
 /* Fotter */
 .attribution {
     font-size: 11px;
@@ -89,3 +94,15 @@ p{
   .attribution a {
     color: hsl(228, 45%, 44%);
   }
+
+  @media (max-width: 1440px) {
+    .profile {
+        height:550px;
+        width: 350px;
+    }
+
+    .profile__list > a{
+        height: 40px;
+    }
+  }
+  
